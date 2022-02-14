@@ -1,6 +1,6 @@
 <table><tr><td> <em>Assignment: </em> M2 PHP-HW</td></tr>
 <tr><td> <em>Student: </em> Mohammad Hussain(msh52)</td></tr>
-<tr><td> <em>Generated: </em> 2/13/2022 8:50:42 PM</td></tr>
+<tr><td> <em>Generated: </em> 2/13/2022 9:18:26 PM</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IT202-004-S22/m2-php-hw/grade/msh52" target="_blank">Grading</a></td></tr></table>
 <table><tr><td> <em>Instructions: </em> <p>Make sure you have the dev/prod branches created before starting this assignment.</p>
 <p>Setup steps:</p>
@@ -68,7 +68,7 @@ You can find all 3 template files in this gist: <a href="https://gist.github.com
 </table></td></tr>
 <table><tr><td> <em>Deliverable 2: </em> Problem 2 - Only output the sum/total of the array values by assigning it to the $total variable (the number must end in 2 decimal places, if it ends in 1 it must have a 0 at the end) </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Clearly screenshot the output of Problem 2 showing the data and the code output in the proper part of the page</td></tr>
-<tr><td><table><tr><td><img width="768px" src="https://github.com/Hussain185/IT202-004/pull/7#issuecomment-1038508802"/></td></tr>
+<tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/98345252/153788859-356fe6d2-555c-4484-b0b4-87b44a0d386c.png"/></td></tr>
 <tr><td> <em>Caption:</em> <p>Showing problem 2 solution<br></p>
 </td></tr>
 </table></td></tr>
