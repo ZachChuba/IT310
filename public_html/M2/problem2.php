@@ -8,6 +8,11 @@ function getTotal($arr) {
     $total = 0.00;
     //TODO do adding here
     //TODO do rounding stuff here
+    for($i= 0; $i<sizeof($arr); $i++){
+        $total += $arr[$i];
+    }
+
+    $total = round($total,2);
     
     echo "The total is " . var_export($total, true);
 }
