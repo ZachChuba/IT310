@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -13,14 +15,71 @@
             setTimeout(() => {
                 //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
                 //TODO: add code for processing the current selection 
-
                 //Note: likely you'll want to call updateCurrentPage towards the end
+                var getCurrentClickLinkText = link.innerTex;
+                updateCurrentPage(getCurrentClickLinkText);
             }, 100);
         }
     </script>
     <style>
         /* TODO: make edits here */
+        ul li {
+            /*make the vangi horizontal*/
+            display: inline;
+            /*additinal styling*/
+            padding: 0.32rem;
+            /*text size*/
+            font-size: large;
+        }
+
+        ul {
+            /*navigation list item markers done*/
+            list-style-type: none;
+            /*background*/
+            background-color: rgb(51, 173, 26);
+            /*extra style*/
+            padding: .02rem, 1.4rem;
+        }
+
+        ul a:hover {
+            /*text color and color change on mouseover*/
+            color: rgb(238, 46, 16);
+
+        }
+
+        ul li:before {
+            /*changing bullte to check mark ✓*/
+            content: '✓';
+        }
+
+        ul li a {
+            display: inline-block;
+            padding: 00.2rem;
+
+        }
+
+        h1::first-letter,
+        a::first-letter{
+            /*making it uppercase*/
+            text-transform: uppercase;
+        }
+
+
+
+
     </style>
+    <h1>Problem 1</h1>
+    <ul>
+        <!--having hyperlinks-->
+        <li><a href = "#" onclick = 'getCurrentSelection(this)'>login</a></li>
+        <li><a href = "#" onclick='getCurrentSelection(this)'>register</a></li>
+        <li><a href = "#" onclick='getCurrentSelection(this)'>profile</a></li>
+        <li><a href = "#" onclick='getCurrentSelection(this)'>logout</a></li>
+    </ul>
+
+    <script src = "external.js"></script>
+
+
     <!-- make the necessary edits above this line -->
 
 
