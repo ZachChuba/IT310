@@ -10,7 +10,11 @@
         window.addEventListener("load", () => {
             console.log("loaded via javascript");
             //TODO: add any extra onload processing you may need here
+            
         });
+
+        
+
         function getCurrentSelection() {
             setTimeout(() => {
                 //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
@@ -18,11 +22,23 @@
                 //Note: likely you'll want to call updateCurrentPage towards the end
                 var getCurrentClickLinkText = link.innerTex;
                 updateCurrentPage(getCurrentClickLinkText);
+
+             
             }, 100);
+
         }
     </script>
+    
     <style>
+        
         /* TODO: make edits here */
+
+       
+    
+
+
+
+
         ul li{
             /*make the vanigation horizontal*/
             display:inline-block;
@@ -34,6 +50,8 @@
         }
 
         ul {
+
+            
             /*navigation list item markers done*/
             list-style-type: none;
             /*background*/
@@ -71,20 +89,17 @@
     </style>
     <h1>Problem 1</h1>
     <ul>
+       
         <!--having hyperlinks-->
-        <li><a href = "#" onclick ='getCurrentSelection(this)'>login</a></li>
-        <li><a href = "#" onclick='getCurrentSelection(this)'>register</a></li>
-        <li><a href = "#" onclick='getCurrentSelection(this)'>profile</a></li>
-        <li><a href = "#" onclick='getCurrentSelection(this)'>logout</a></li>
+        <li><a href = "#" onclick ="updateCurrentPage('login')">login</a></li>
+        <li><a href = "#" onclick="updateCurrentPage('register')">register</a></li>
+        <li><a href = "#" onclick="updateCurrentPage('profile')">profile</a></li>
+        <li><a href = "#" onclick="updateCurrentPage('logout')">logout</a></li>
     </ul>
 
     <script src = "external.js"></script>
 
-function updateCurrentPage(contenToUpdate){
-    document.querSelecttor("h1").innerText = contentToUpdate;
-    document.querSelecttor("title").innerText = contentToUpdate;
 
-}
 
     <!-- make the necessary edits above this line -->
 
