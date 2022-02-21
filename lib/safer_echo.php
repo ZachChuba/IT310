@@ -14,7 +14,8 @@ function se($v, $k = null, $default = "", $isEcho = true) {
         $returnValue = $v;
         //added 07-05-2021 to fix case where $k of $v isn't set
         //this is to kep htmlspecialchars happy
-        if (is_array($returnValue) || is_object($returnValue)) {
+        if (is_array($returnValue) || is_object($returnValue)) 
+        {
             $returnValue = $default;
         }
     }

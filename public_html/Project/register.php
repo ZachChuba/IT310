@@ -31,7 +31,8 @@ if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm
     $password = se($_POST, "password", "", false);
     $confirm = se($_POST, "confirm", "", false);
     $hasError = false;
-    if (empty($email)) {
+    if (empty($email))
+     {
         echo "Email must not be empty";
         $hasError = true;
     }
