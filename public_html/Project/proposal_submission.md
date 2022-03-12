@@ -1,6 +1,6 @@
 <table><tr><td> <em>Assignment: </em> Proposal markdown</td></tr>
 <tr><td> <em>Student: </em> Mohammad Hussain(msh52)</td></tr>
-<tr><td> <em>Generated: </em> 3/12/2022 4:51:13 PM</td></tr>
+<tr><td> <em>Generated: </em> 3/12/2022 4:53:58 PM</td></tr>
 <tr><td> <em>Grading Link: </em> <a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IT202-004-S22/proposal-markdown/grade/msh52" target="_blank">Grading</a></td></tr></table>
 <table><tr><td> <em>Instructions: </em> <ol>
 <li>Copy this template (use the raw button or you&#39;ll miss part of the template): <a href="https://gist.github.com/MattToegel/420ef0ad0925eca69c70ca951572abfb">https://gist.github.com/MattToegel/420ef0ad0925eca69c70ca951572abfb</a> (Links to an external site.)</li>
@@ -40,12 +40,12 @@
 <table><tr><td> <em>Deliverable 2: </em> Github Issues and Project Board </td></tr><tr><td><em>Status: </em> <img width="100" height="20" src="https://via.placeholder.com/400x120/009955/fff?text=Complete"></td></tr>
 <tr><td><table><tr><td> <em>Sub-Task 1: </em> Add Screenshots showing the generated Issues on Github (there should be at least 9; 1 per major bullet point)</td></tr>
 <tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/98345252/158036313-d7d8d9c7-0173-4e31-8fcc-cc7f3f30a0ad.png"/></td></tr>
-<tr><td> <em>Caption:</em> <p>showing sc of issues<br></p>
+<tr><td> <em>Caption:</em> <p>showing issues<br></p>
 </td></tr>
 </table></td></tr>
 <tr><td> <em>Sub-Task 2: </em> Add Screenshots from the perspective of the Project board showing all issues in the TODO column</td></tr>
 <tr><td><table><tr><td><img width="768px" src="https://user-images.githubusercontent.com/98345252/158036332-1d8c3152-9047-49e4-8caa-e344b5b24335.png"/></td></tr>
-<tr><td> <em>Caption:</em> <p>showing sc of issues on TODO<br></p>
+<tr><td> <em>Caption:</em> <p>showing the issues on TODO<br></p>
 </td></tr>
 </table></td></tr>
 </table></td></tr>
