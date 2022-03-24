@@ -57,11 +57,13 @@ var enemyBaseSpeed = 2;
 function makeEnemy() {
   var enemyX = canvas.width;
   var enemySize = Math.round((Math.random() * 15)) + 15;
+  var enemySize2 = Math.round((Math.random() * 15)) + 15;
   var enemyY = Math.round(Math.random() * (canvas.height - enemySize * 2)) + enemySize;
   var enemyY2 = Math.round(Math.random() * (canvas.height - enemySize * 2)) + enemySize;
   var enemySpeed = Math.round(Math.random() * enemyBaseSpeed) + enemyBaseSpeed;
+  var enemySpeed2 = Math.round(Math.random() * enemyBaseSpeed) + enemyBaseSpeed;
   enemies.push(makeSquare(enemyX, enemyY, enemySize, enemySpeed));
-  enemies.push(makeSquare(enemyX+250, enemyY2, enemySize+3, enemySpeed));
+  enemies.push(makeSquare(enemyX+275, enemyY2, enemySize2, enemySpeed2));
 }
 
 // Check if number a is in the range b to c (exclusive)
