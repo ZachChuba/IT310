@@ -62,8 +62,12 @@ function makeEnemy() {
   var enemyY2 = Math.round(Math.random() * (canvas.height - enemySize * 2)) + enemySize;
   var enemySpeed = Math.round(Math.random() * enemyBaseSpeed) + enemyBaseSpeed;
   var enemySpeed2 = Math.round(Math.random() * enemyBaseSpeed) + enemyBaseSpeed;
+
   enemies.push(makeSquare(enemyX, enemyY, enemySize, enemySpeed));
   enemies.push(makeSquare(enemyX+275, enemyY2, enemySize2, enemySpeed2));
+
+  //MSH52, MOHAMMAD HUSSAIN
+//3/24/22
 }
 
 // Check if number a is in the range b to c (exclusive)
@@ -162,6 +166,8 @@ function erase() {
 // Shoot the bullet (if not already on screen)
 function shoot() {
 //  if (!shooting) {
+//MSH52, MOHAMMAD HUSSAIN
+//3/24/22
     shooting = true;
     bullet = makeSquare(0, 0, (Math.round((Math.random() * 10)) + 15), (Math.round((Math.random() * 15)) + 10));
     bullet.x = ship.x + ship.l;
