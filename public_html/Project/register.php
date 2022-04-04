@@ -25,8 +25,29 @@ reset_session();
     function validate(form) {
         //TODO 1: implement JavaScript validation
         //ensure it returns false for an error and true for success
+        let isValid = true;
+        const email = form.email.value;
+        const password = form.password.value;
 
-        return true;
+        if (email.indestOf("@")>-1){
+            if (!isValidEmail(email)){
+                flash("Invalid email", " danger");
+                isValid = false;
+            }  
+        }
+        else {
+            if (!isValidUsername(email)){
+                flash("Username must be lowercase, 3-6 characters, and contain only a-z, 0-9 _ or -", "danger");
+                isValid= false;
+            }
+        }
+
+        if (!isValidPassword(password)){
+            flash("Password too short", "danger");
+            isValid= false;
+        }
+
+        return isValid;
     }
 </script>
 <?php
