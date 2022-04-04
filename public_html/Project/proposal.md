@@ -17,50 +17,48 @@
 ### Proposal Checklist and Evidence
 
 - Milestone 1
-- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to register a new account)
+- [x] \(02/21/2022) Feature Title (User will be able to register a new account)
   -  [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -  [Register](https://msh52-prod.herokuapp.com/Project/register.php)
 
 
- -[ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to login to their account (given they enter the correct credentials)
+- [x] \(02/21/2022) Feature Title (User will be able to login to their account (given they enter the correct credentials)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [login](https://msh52-prod.herokuapp.com/Project/login.php)
 
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to logout)
+- [x] \(02/21/2022) Feature Title (User will be able to logout)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [logout](https://msh52-prod.herokuapp.com/Project/logout.php)
 
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (Basic security rules implemented)
+- [x] \(02/28/2022) Feature Title (Basic security rules implemented)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
-  -   [Basic](https://msh52-prod.herokuapp.com/Project/register.php)
-
-
-- [ ] \(mm/dd/yyyy of completion) Feature Title (Basic Roles implemented)
-  -  [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [Profile](https://msh52-prod.herokuapp.com/Project/profile.php)
 
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (Site should have basic styles/theme applied; everything should be styled)
-  -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
-  -   [Admmin-Role](https://msh52-prod.herokuapp.com/Project/admin/create_role.php)
+- [x] \(03/30/2022) Feature Title (Basic Roles implemented)
+  -  [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
+  -  [Admmin-Role](https://msh52-prod.herokuapp.com/Project/admin/create_role.php)
 
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (Any output messages/errors should be “user friendly”)
+- [x] \(02/23/2022) Feature Title (Site should have basic styles/theme applied; everything should be styled)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [Home](https://msh52-prod.herokuapp.com/Project/home.php)
   -   [Styles](https://msh52-prod.herokuapp.com/Project/styles.css)
 
 
-- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to see their profile)
+- [x] \(02/28/2022) Feature Title (Any output messages/errors should be “user friendly”)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [logout](https://msh52-prod.herokuapp.com/Project/logout.php)
+
+
+- [x] \(02/28/2022) Feature Title (User will be able to see their profile)
+  -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [Profile](https://msh52-prod.herokuapp.com/Project/profile.php)
+  
 
-
-
-- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to edit their profile)
+- [ ] \(02/28/2022) Feature Title (User will be able to edit their profile)
   -   [Milestone 1](https://github.com/Hussain185/IT202-004/blob/Milestone1/public_html/Project/milestone1.md)
   -   [Profile](https://msh52-prod.herokuapp.com/Project/profile.php)
 
