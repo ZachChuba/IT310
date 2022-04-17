@@ -20,8 +20,7 @@ function isValidUsername(username){
 }
 
 function isValidEmail(email){
-    const pattern = /^[a-z0-9_-]{3,16}$/;
-    return pattern.text(email);
+    return true;
 
 }
 
