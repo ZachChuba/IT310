@@ -13,11 +13,15 @@
 .alert-info {
     background-color: teal;
 }
-nav li{display: inline; background-color: rebeccapurple;}
-nav li a{color: rgb(218, 227, 228)}
-input{border-radius: 50%;}
+nav {
+    background-color: lightblue;
+    padding: 5px 5px;
+}
+nav li{display: inline;}
+nav li a{color: yellow; margin-left: 10px;}
+input{border-radius: 10%}
 body{
-    background-color: rgb(231, 238, 240);
-    color: rgb(153, 0, 153);
+    background-color: rgb(157, 126, 230);
+    color: lightblue;
 
 }
