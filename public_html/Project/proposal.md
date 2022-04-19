@@ -65,29 +65,29 @@
 
       
 - Milestone 2
-- [ ] \(04/18/2022) Feature Title (User with an admin role or shop owner role will be able to add products to inventory)
+- [x] \(04/18/2022) Feature Title (User with an admin role or shop owner role will be able to add products to inventory)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
   -   [Add Items](https://msh52-dev.herokuapp.com/Project/Admin/add_item.php)
 
 
-- [ ] \(04/18/2022) Feature Title (Any user will be able to see products with visibility = true on the Shop page)
+- [x] \(04/18/2022) Feature Title (Any user will be able to see products with visibility = true on the Shop page)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
   -   [Shop](https://msh52-dev.herokuapp.com/Project/shop.php)
 
 
-- [ ] \(04/18/2022) Feature Title (Admin/Shop owner will be able to see products with any visibility)
+- [x] \(04/18/2022) Feature Title (Admin/Shop owner will be able to see products with any visibility)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
   -   [Shop](https://msh52-dev.herokuapp.com/Project/shop.php)
 
 
-- [ ] \(04/18/2022) Feature Title (Admin/Shop owner will be able to edit any producty)
+- [x] \(04/18/2022) Feature Title (Admin/Shop owner will be able to edit any producty)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [List Items](https://msh52-dev.herokuapp.com/Project/Admin/list_items.php)
     -   [Edit Item-Ferrari](https://msh52-dev.herokuapp.com/Project/Admin/edit_item.php?id=5)
     -   [Edit Item-Dell Laptop](https://msh52-dev.herokuapp.com/Project/Admin/edit_item.php?id=7)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to click an item from a list and view a full page with more info about the item (Product Details Page))
+- [x] \(04/18/2022) Feature Title (User will be able to click an item from a list and view a full page with more info about the item (Product Details Page))
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [Product Details-Mouse](https://msh52-dev.herokuapp.com/Project/product_details.php?id=8)
     -   [Product Details-Galaxy](https://msh52-dev.herokuapp.com/Project/product_details.php?id=11)
@@ -95,32 +95,32 @@
     
 
 
-- [ ] \(04/18/2022) Feature Title (User must be logged in for any Cart related activity below)
+- [x] \(04/18/2022) Feature Title (User must be logged in for any Cart related activity below)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [Shop](https://msh52-dev.herokuapp.com/Project/shop.php)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to add items to Cart)
+- [x] \(04/18/2022) Feature Title (User will be able to add items to Cart)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [User-Cart](https://msh52-dev.herokuapp.com/Project/cart.php)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to see their cart)
+- [x] \(04/18/2022) Feature Title (User will be able to see their cart)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [User-Cart](https://msh52-dev.herokuapp.com/Project/cart.php)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to change quantity of items in their cart)
+- [x] \(04/18/2022) Feature Title (User will be able to change quantity of items in their cart)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [User-Cart](https://msh52-dev.herokuapp.com/Project/cart.php)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to remove a single item from their cart via button click)
+- [x] \(04/18/2022) Feature Title (User will be able to remove a single item from their cart via button click)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [User-Cart](https://msh52-dev.herokuapp.com/Project/cart.php)
 
 
-- [ ] \(04/18/2022) Feature Title (User will be able to clear their entire cart via a button click)
+- [x] \(04/18/2022) Feature Title (User will be able to clear their entire cart via a button click)
   -  [Milestone 2](https://github.com/Hussain185/IT202-004/blob/Milestone2/public_html/Project/milestone2.md)
     -   [User-Cart](https://msh52-dev.herokuapp.com/Project/cart.php)
 
