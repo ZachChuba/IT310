@@ -37,24 +37,7 @@ if (!empty($col) && !empty($order) && $col=="out_stock") {
 //paginate function
 $per_page = 3;
 paginate($total_query . $query, $params, $per_page);
-//get the total
-/* this comment block has been replaced by paginate()
-$stmt = $db->prepare($total_query . $query);
-$total = 0;
-try {
-    $stmt->execute($params);
-    $r = $stmt->fetch(PDO::FETCH_ASSOC);
-    if ($r) {
-        $total = (int)se($r, "total", 0, false);
-    }
-} catch (PDOException $e) {
-    flash("<pre>" . var_export($e, true) . "</pre>");
-}
-//apply the pagination (the pagination stuff will be moved to reusable pieces later)
-$page = se($_GET, "page", 1, false); //default to page 1 (human readable number)
-$per_page = 3; //how many items to show per page (hint, this could also be something the user can change via a dropdown or similar)
-$offset = ($page - 1) * $per_page;
-*/
+
 $query .= " LIMIT :offset, :count";
 $params[":offset"] = $offset;
 $params[":count"] = $per_page;
@@ -207,7 +190,7 @@ try {
                     <div class="card-body">
                         <h5 class="card-title">Name: <?php se($item, "name"); ?></h5>
                         <p class="card-text">Description: <?php se($item, "description"); ?></p>
-                        <p  style="margin-bottom: 0px;"><u>Average rating: </u><?php se($item, "average_rating"); ?></p>
+                        <p  style="margin-bottom: 0px;"><u> </u><?php se($item, "average_rating"); ?></p>
                     </div>
                     <div class="card-footer">
                         Cost: <?php se($item, "cost"); ?>

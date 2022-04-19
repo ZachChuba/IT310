@@ -14,14 +14,14 @@
     background-color: teal;
 }
 nav {
-    background-color: lightblue;
+    background-color: rgb(226, 234, 236);
     padding: 5px 5px;
 }
 nav li{display: inline;}
-nav li a{color: yellow; margin-left: 10px;}
+nav li a{color: rgb(13, 228, 41); margin-left: 10px;}
 input{border-radius: 10%}
 body{
-    background-color: rgb(157, 126, 230);
+    background-color: rgb(138, 58, 58);
     color: lightblue;
 
 }
