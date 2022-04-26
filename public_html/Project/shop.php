@@ -202,7 +202,7 @@ try {
                         <button onclick="cart('<?php se($item, 'id'); ?>','<?php se($item, 'cost'); ?>')" class="btn btn-primary">Add to Cart</button>
                         <?php if (has_role("Admin")) : ?> 
                             <td>
-                                <a href="admin/edit_item.php?id=<?php se($item, "id"); ?>">Edit</a>
+                                <a href="Admin/edit_item.php?id=<?php se($item, "id"); ?>">Edit</a>
                             </td>
                             <?php endif; ?>
                         <!-- example form submit-->
