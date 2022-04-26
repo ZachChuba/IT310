@@ -66,7 +66,7 @@ require(__DIR__ . "/../../partials/nav.php");
         <?php endforeach; ?>
         <?php if (has_role("Admin")) : ?> 
             <td>
-                <a href="admin/edit_item.php?id=<?php se($item_id, "id"); ?>">
+                <a href="Admin/edit_item.php?id=<?php se($item_id, "id"); ?>">
                 <button class="btn btn-primary">Edit</button>
             </a>
             </td>
