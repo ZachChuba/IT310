@@ -4,6 +4,8 @@ require(__DIR__ . "/../../partials/nav.php");
 $results = [];
 $db = getDB();
 //Sort and Filters
+//msh52
+//04/18/2022
 $col = se($_GET, "col", "cost", false);
 //allowed list
 if (!in_array($col, ["cost", "stock", "name", "created", "out_stock", "average_rating", "category"])) {
@@ -23,6 +25,8 @@ $total_query = "SELECT count(1) as total FROM Products";
 $query = " WHERE 1=1"; //1=1 shortcut to conditionally build AND clauses
 $params = []; //define default params, add keys as needed and pass to execute
 //apply name filter
+//msh52
+//04/18/2022
 if (!empty($name)) {
     $query .= " AND name like :name";
     $params[":name"] = "%$name%";
@@ -149,7 +153,7 @@ try {
                     <option value="stock">Stock</option>
                     <option value="name">Name</option>
                     <option value="created">Created</option>
-                    <option value="average_rating">Average Rating</option>
+                    <option value="average_rating"></option>
                     <?php if (has_role("Admin")) : ?>
                         <option value="out_stock">Out of Stock</option>
                     <?php endif; ?>

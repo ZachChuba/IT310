@@ -56,7 +56,18 @@ function add_to_cart($item_id, $user_id, $quantity, $cost)
     }
     return false;
 }
-
+function update_average_rating($a_r,$p_id)
+{
+    $db = getDB();
+    $stmt = $db->prepare("UPDATE Products set average_rating = :aver_rat where id = :pro_id ");
+    try {
+        $stmt->execute([":aver_rat"=>$a_r, ":pro_id"=>$p_id]);
+        return true;
+    }catch (PDOException $e) {
+        error_log("Error adding items to OrderItems table: " . var_export($e->errorInfo, true));
+    }
+    return false;
+}
 function updating_stock($product_id,$product_stock,$OrderItems_quantity){
     $db = getDB();
     $stmt = $db->prepare("UPDATE Products set stock = :p_s - :Oi_q where id = :p_id ");
