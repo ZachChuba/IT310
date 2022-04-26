@@ -42,6 +42,7 @@ session_start();
                 <?php if (is_logged_in()) : ?>
 
                     <li class="nav-item"><a class="nav-link" href="<?php echo get_url('profile.php'); ?>">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?php echo get_url('product_history.php'); ?>">Order History</a></li>
                 <?php endif; ?>
                 <?php if (is_logged_in()) : ?>
                     
