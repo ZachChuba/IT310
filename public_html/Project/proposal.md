@@ -126,7 +126,22 @@
 
 
 - Milestone 3
-  - (duplicate template here for Milestone 1 features)
+- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to purchase items in their Cart)
+  -  Link to related .md file: [Link Name](link url)
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (Order Confirmation Page)
+  -  Link to related .md file: [Link Name](link url) 
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (User will be able to see their Purchase History)
+  -  Link to related .md file: [Link Name](link url)
+
+- [ ] \(mm/dd/yyyy of completion) Feature Title (Store Owner will be able to see all Purchase History)
+  -  Link to related .md file: [Link Name](link url)
+
+
+
+
+
 - Milestone 4
   - (duplicate template here for Milestone 1 features)
   - 
