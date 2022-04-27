@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS BGD_PurchaseHistory(
+CREATE TABLE IF NOT EXISTS PurchaseHistory(
     id int AUTO_INCREMENT PRIMARY KEY,
     item_id int,
     quantity int,
