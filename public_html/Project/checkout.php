@@ -4,6 +4,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
 ?>
 <?php
     $results =[];
+    //checking for payment method
     if(isset($_POST["button_order"])){
         if(empty($_POST["payment_check"])){
             flash("Please enter payment_check", "alert");
