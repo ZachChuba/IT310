@@ -60,11 +60,15 @@ require_once(__DIR__ . "/../../lib/functions.php");
         flash("<pre>" . var_export($e, true) . "</pre>");
     }
     //print_r($results);
+
+    //showing order history
+    //if admin is 
 ?>
 <div class="container-fluid" style="margin-bottom:20px;">
     <h1 id ="noflex" >Order History</h1>
     <div class="row">
     <form >
+        
         <div class = "row">
                 <div class="input-group">
                     <div class="input-group-text">Sort</div>
@@ -106,6 +110,7 @@ require_once(__DIR__ . "/../../lib/functions.php");
                 </div>
         </div> 
         </form> 
+        
             <?php if (has_role("Admin")) : ?>
                 <?php foreach ($results as $index => $record) : ?>
                         <?php global $order_number; ?>
