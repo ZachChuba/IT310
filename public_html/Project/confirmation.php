@@ -2,7 +2,9 @@
 require(__DIR__ . "/../../partials/nav.php");
 require_once(__DIR__ . "/../../lib/functions.php");
 ?>
+
 <?php
+//Confirmation page is flashed 
     $results = [];
     $results1 = [];
     $order_id = se($_GET, "id", 0, false); 
