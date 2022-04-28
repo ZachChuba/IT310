@@ -5,6 +5,7 @@
     let bv = document.getElementById("balance-value");
     //I'll make this flexible so I can define various placeholders and copy
     //the value into all of them
+    //hey
     let placeholders = document.getElementsByClassName("show-balance");
     for (let p of placeholders) {
         //https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode
